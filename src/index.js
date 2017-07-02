@@ -13,6 +13,8 @@ registerServiceWorker();
 */
 
 import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import ReactDOM from 'react-dom';
 
 
@@ -20,8 +22,10 @@ import ReactDOM from 'react-dom';
 const MiPrimerComponente = () =>
 (
 <div className="text-center">
-    Hola Mundo
-</div>
+<Header title="Directorio"/>
+      Hola Mundo
+      <Footer copyright= "Realizado por Juan Carlos Garcia"/>
+      </div>
 
 
 );
